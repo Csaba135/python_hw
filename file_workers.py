@@ -152,3 +152,4 @@ class JSONWorker(FileWorker):
         else:
             with open(file_path, 'a') as json_file:
                 json.dump(data, json_file, indent=2)
+

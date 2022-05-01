@@ -24,3 +24,4 @@ if __name__ == '__main__':
 
     stats = Stats(**args)  # Stats(args.get('input_type'), args.get('output_type'))
     stats.run()
+
